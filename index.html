@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM PASSWORD GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>generate a <br><span> Random password</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="password">
+            <img id=copyButton src="images/copy.png" >
+
+        </div>
+        <div class="length-selection">
+            <!-- <label>
+                <input type="checkbox" id="length8" checked> 8-Character Password
+            </label>
+            <label>
+                <input type="checkbox" id="length12"> 12-Character Password
+            </label> -->
+            <label>
+                 <input type="radio" id="length8" name="gender"/>
+                 <span>8-Character Password</span>
+            </label>
+         <label>
+                <input type="radio" id="length12" name="gender"/>
+                <span>12-Character Password</span>
+        </label>
+        </div>
+        
+        <button id="generateButton"><img src="images/generate.png">Generate Password</button>
+      
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>
