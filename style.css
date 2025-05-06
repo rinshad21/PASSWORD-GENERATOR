@@ -97,7 +97,10 @@ body{
 .container button:hover{
     transform: scale(1.1); 
 }
-
+/* removing blue highlight */
+button,a,input,img{
+    -webkit-tap-highlight-color: transparent;
+}
   
 /* Style for the length selection (checkboxes) */
 .length-selection {
@@ -144,6 +147,9 @@ body{
     .container h1 {
         font-size: 35px;
     }
+    button,a,input,img{
+        -webkit-tap-highlight-color: transparent;
+    }
 
     .display {
         flex-direction: row;
@@ -165,7 +171,7 @@ body{
         width: 100%;
         padding: 14px;
         font-size: 18px;
-        -webkit-tap-highlight-color:transprent;
+
     }
 
 }
