@@ -3,6 +3,7 @@
     padding: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+
 }
 body{
     background: #0f172a;
@@ -158,11 +159,13 @@ body{
     .display img{
         width: 29px;
         cursor: pointer;
+    }
 
-    .container button{
+    .container button {
         width: 100%;
         padding: 14px;
         font-size: 18px;
+        -webkit-tap-highlight-color:transprent;
     }
-}
+
 }
